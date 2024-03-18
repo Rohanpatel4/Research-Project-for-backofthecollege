@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container mt-3">
+        <div id="searchWrapper" class="input-group mb-3">
+            <div id="standardSearchText">
+                <p>Search Here:<p>
+            </div>
+            <input type="text" name="searchBar" id="searchBar" class="form-control" placeholder="Search for people" aria-label="Search for people" aria-describedby="search-addon">
+            <div class="input-group-append">
+                <button id="advancedSearchButton" class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#demo" aria-expanded="false" aria-controls="demo">Advanced Search</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="collapse" id="demo">
+            <!-- This is where the advanced search is -->
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <ul id="peopleList" class="list-unstyled"></ul>
+    </div>
+    <div class="container">
+        <nav id="paginationControls" aria-label="Page navigation">
+          <!-- Pagination will be dynamically inserted here -->
+        </nav>
+    </div>
+
+    <script src="./search.js"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>advanced search</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        </head>
+    <body>
+        <div class="container">
+            <h1>Search Here:</h1>
+            <div id="searchWrapper">
+                <input
+                    type="text"
+                    name="searchBar"
+                    id="searchBar"
+                    placeholder="search for people"
+                />
+                <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo">
+                    <span class="glyphicon glyphicon-collapse-down"></span> Open
+                </button>
+            </div>
+        </div>
+        <div class="container">
+            
+            <div id="demo" class="collapse">
+                 this is where the advanced search is 
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+        <div class="container">
+            <ul id="peopleList"></ul>
+        </div>
+        <div class="container">
+            <div id="paginationControls"></div>
+        </div>
+        <script src="./search.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"> </script>
+    </body>
+</html>
+ -->
